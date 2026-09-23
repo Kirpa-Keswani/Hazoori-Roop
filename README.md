@@ -1,32 +1,34 @@
-# React + TypeScript + Vite
+# Satguru Sain Sadhram Sahib
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive tribute website sharing the life story, photos and videos of Shenshah Satguru Sain Sadhram Sahib.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://your-site-name.netlify.app](https://your-site-name.netlify.app)
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home:** introduction and guiding message
+- **About:** life story and timeline
+- **Gallery:** photo gallery
+- **Videos:** video library
 
-## Expanding the Oxlint configuration
+## Built With
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React and TypeScript
+- Vite
+- Tailwind CSS
+- React Router
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Run Locally
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Then open `http://localhost:5173` in your browser.
+
+## Content Rights
+
+All photographs, videos and text belong to their respective owners. Please do not reuse them without permission.
